@@ -1,0 +1,34 @@
+# 车贷明算账
+
+> 中国车贷透明度科普站：把销售话术里的"费率"翻译成真实年化利率（IRR），帮买车人在签字前算清每一分钱。
+> 立场：买方工具，不卖贷款，不推荐任何金融机构与产品。所有内容仅为金融科普，测算数字为示例，实际以贷款合同为准。
+
+## 核心工具
+
+- [费率换算器](https://www.chedai-mingsuanzhang.com/feilv-irr.html)：输入月费率、期数、一次性手续费（可选），输出真实年化利率（IRR）、名义年化（费率×12）、每月还款、总利息、话术 vs 真实倍数。支持填写车价/首付自动折算贷款本金（月费率按贷款本金收取，不按车价）。
+- 各指南页内嵌对口计算器：等额本息 vs 等本等息对比、信用卡分期费率转年化、提前还款是否划算、0首付方案对比、4S店 vs 银行总成本对比、新能源贴息测算、融资租赁 vs 贷款总账、负债收入比自测。
+
+## 指南（一页一结论）
+
+- [费率 vs 真实利率](https://www.chedai-mingsuanzhang.com/feilv-vs-lilv.html)：月费率 0.25% 不等于年化 3%。36 期为例，真实年化（IRR）约 5.83%。费率按贷款总额固定收取，利率按剩余本金计算。
+- [等额本息 vs 等本等息](https://www.chedai-mingsuanzhang.com/dengben-dengxi.html)：10 万 36 期为例，等额本息（年化 3%）总利息约 4692 元，等本等息（月费率 0.25%）总利息 9000 元，差出一倍。
+- [0首付0利息的真相](https://www.chedai-mingsuanzhang.com/ling-shoufu.html)：0 首付不等于 0 成本，对比总支出才能判断；注意车价是否被抬高、手续费是否一次性收取。
+- [提前还款违约金](https://www.chedai-mingsuanzhang.com/tiqian-huankuan.html)：提前还款一般收剩余本金一定比例的违约金，签合同前先看这一条。
+- [4S店 vs 银行](https://www.chedai-mingsuanzhang.com/sidi-vs-yinhang.html)：4S店多用费率报价，银行多用年化利率报价；比较任何两个方案，只比真实年化（IRR）和总成本。
+- [信用卡分期 vs 车贷](https://www.chedai-mingsuanzhang.com/xinyongka-fenqi.html)：分期手续费本质就是月费率，每期 0.6%、12 期约等于年化 13.84%。
+- [新能源贴息](https://www.chedai-mingsuanzhang.com/tiexi.html)：贴息降低的是利息部分，同时要核对车价有没有被抬高。
+- [融资租赁 vs 贷款](https://www.chedai-mingsuanzhang.com/rongzi-zulin.html)：融资租赁租期内车辆登记证书一般不在承租人手里；对比时把首付、月租×期数、尾款加总再比。
+- [车贷被拒的常见原因](https://www.chedai-mingsuanzhang.com/beiju.html)：征信、收入负债比、银行流水是三大项；负债收入比 40% 以下相对健康（常见参考，非银行标准）。
+- [合同避坑8项](https://www.chedai-mingsuanzhang.com/hetong.html)
+- [避坑指南索引](https://www.chedai-mingsuanzhang.com/zhinan.html)：10 篇指南一句话导航，先看第 1、2 篇，签字前看第 10 篇。：签字前必看的 8 个条款，包括利率口径、手续费、提前还款、保险捆绑等。
+
+## 关键事实
+
+- 真实年化利率（IRR）是监管要求明示的口径。《个人贷款业务明示综合融资成本规定》（金融监管总局、中国人民银行，2026年8月1日起施行）要求包括汽车金融公司在内的放贷机构，在签约前向借款人出示《综合融资成本明示表》，逐项列明各项息费并折算年化综合融资成本。
+- 等额本息方案标称的年化利率本身就是 IRR 口径，可直接对比；费率方案需换算成 IRR 后再对比。
+- 月费率按贷款本金（车价减首付）收取；首付只决定贷款金额，不改变年化利率。
+
+## 关于
+
+- [关于本站](https://www.chedai-mingsuanzhang.com/guanyu.html)
+- [隐私政策](https://www.chedai-mingsuanzhang.com/yinsi.html)

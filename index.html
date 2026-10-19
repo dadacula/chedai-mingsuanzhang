@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="t-b">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>车贷明算账｜车贷费率真相、真实利率计算器</title>
+<meta name="description" content="车贷明算账：把车贷的费率话术翻译成真实年化利率。费率IRR换算器、10篇避坑指南，帮你在签字前算清每一分钱。内容仅为科普，具体以贷款合同为准。">
+<meta name="keywords" content="车贷费率,车贷真实利率,车贷计算器,费率换算年化,汽车贷款避坑">
+<link rel="canonical" href="https://www.chedai-mingsuanzhang.com/index.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="车贷明算账">
+<meta property="og:title" content="车贷明算账｜把费率翻译成真实利率">
+<meta property="og:description" content="月费率0.25%听起来很低？真实年化是5.83%。我们用红笔给你标出来。">
+<meta property="og:url" content="https://www.chedai-mingsuanzhang.com/index.html">
+<link rel="stylesheet" href="themes.css">
+<script>!function(){try{var t=localStorage.getItem('chedai-theme');if(t!=='a'&&t!=='c')t='b';var de=document.documentElement;
+  de.className=(de.className.replace(/(^|\s)t-[abc](?=\s|$)/g,'')+' t-'+t).replace(/^\s+|\s+$/g,'');}catch(e){}}();</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"车贷明算账","url":"https://www.chedai-mingsuanzhang.com/",
+"description":"车贷费率透明度科普站：费率IRR换算器与避坑指南。"}
+</script>
+<!-- 统计代码占位：GA4 或百度统计二选一，上线前填入 -->
+<!-- AI 来源识别（GEO pilot KPI：ai_referral 事件，source=ai 引擎名） -->
+<script>
+(function(){
+  var AI_HOSTS = {
+    "chatgpt.com":"chatgpt","chat.openai.com":"chatgpt",
+    "claude.ai":"claude","perplexity.ai":"perplexity",
+    "doubao.com":"doubao","www.doubao.com":"doubao",
+    "kimi.moonshot.cn":"kimi","chat.deepseek.com":"deepseek",
+    "yiyan.baidu.com":"wenxin","tongyi.aliyun.com":"tongyi",
+    "poe.com":"poe","grok.com":"grok","gemini.google.com":"gemini",
+    "copilot.microsoft.com":"copilot","meta.ai":"meta_ai"
+  };
+  function track(name, params){
+    try{
+      if(typeof gtag === "function"){ gtag("event", name, params||{}); }
+      else if(typeof _hmt !== "undefined"){ _hmt.push(["_trackEvent","ai",name,(params&&params.source)||""]); }
+      else { (window.__trackq = window.__trackq || []).push([name, params]); }
+    }catch(e){}
+  }
+  try{
+    var r = document.referrer;
+    if(r){
+      var host = (r.split("/")[2]||"").toLowerCase();
+      var src = AI_HOSTS[host] || AI_HOSTS[host.replace(/^www\./,"")];
+      if(src){ track("ai_referral", {source: src, page: location.pathname}); }
+    }
+  }catch(e){}
+  window.__trackEvent = track;
+})();
+</script>
+
+</head>
+<body>
+<header class="site-header">
+  <div class="meta-bar"><span>车贷透明度科普</span><span>IRR · 真实年化利率</span><span>2026</span></div>
+  <div class="wrap head-row">
+    <a class="logo" href="index.html">车贷明算账<span class="dot">.</span></a>
+    <select class="theme-select" aria-label="切换风格">
+      <option value="a">深蓝</option>
+      <option value="b" selected>红笔</option>
+      <option value="c">瑞士</option>
+    </select>
+  </div>
+  <nav class="main-nav" aria-label="主导航"><div class="nav-strip wrap">
+      <a href="index.html" class="active">首页</a>
+      <a href="feilv-irr.html">费率换算器</a>
+      <details class="nav-group">
+      <summary><span>避坑指南</span><span class="caret">▾</span></summary>
+      <div class="nav-drop">
+        <a href="zhinan.html" class="drop-head">全部 10 篇 →</a>
+        <a href="feilv-vs-lilv.html"><span class="n">01</span>费率 vs 真实利率</a>
+        <a href="dengben-dengxi.html"><span class="n">02</span>等额本息 vs 等本等息</a>
+        <a href="ling-shoufu.html"><span class="n">03</span>0首付0利息的真相</a>
+        <a href="tiqian-huankuan.html"><span class="n">04</span>提前还款违约金</a>
+        <a href="sidi-vs-yinhang.html"><span class="n">05</span>4S店 vs 银行</a>
+        <a href="xinyongka-fenqi.html"><span class="n">06</span>信用卡分期 vs 车贷</a>
+        <a href="tiexi.html"><span class="n">07</span>新能源贴息</a>
+        <a href="rongzi-zulin.html"><span class="n">08</span>融资租赁 vs 贷款</a>
+        <a href="beiju.html"><span class="n">09</span>车贷被拒原因</a>
+        <a href="hetong.html"><span class="n">10</span>合同避坑8项</a>
+      </div>
+    </details>
+      <a href="guanyu.html">关于</a>
+    </div></nav>
+  <script>document.addEventListener("change",function(e){var el=e.target;if(el&&el.classList&&el.classList.contains("theme-select")){setTheme(el.value);}});</script>
+  <script>document.addEventListener("click",function(e){var ds=document.querySelectorAll("details.nav-group[open]");for(var i=0;i<ds.length;i++){if(!ds[i].contains(e.target)){ds[i].removeAttribute("open");}}});</script>
+</header>
+<script>
+function curTheme(){var m=/(^|\s)t-([abc])(?=\s|$)/.exec(document.documentElement.className);return m?m[2]:'b';}
+function setTheme(t){
+  if(t!=='a'&&t!=='b'&&t!=='c')t='b';
+  var de=document.documentElement;
+  de.className=(de.className.replace(/(^|\s)t-[abc](?=\s|$)/g,'')+' t-'+t).replace(/^\s+|\s+$/g,'');
+  
+  try{localStorage.setItem('chedai-theme',t);}catch(e){}
+  var sels=document.querySelectorAll('.theme-select');
+  for(var i=0;i<sels.length;i++){sels[i].value=t;}
+  if(typeof window.__trackEvent==='function'){try{window.__trackEvent('theme_switch',{theme:t});}catch(e){}}
+  syncThemeExtras();
+}
+function syncThemeExtras(){
+  var t=curTheme();
+  var grid=document.getElementById('resultGrid'), bars=document.getElementById('r_bars');
+  if(bars&&grid){
+    if(t==='c'&&grid.style.display!=='none'){
+      var nom=parseFloat(document.getElementById('r_nom').textContent)||0;
+      var irr=parseFloat(document.getElementById('r_irr').textContent)||0;
+      document.getElementById('r_barNom').style.width=Math.min(100,nom/10*100)+'%';
+      document.getElementById('r_barIrr').style.width=Math.min(100,irr/10*100)+'%';
+      document.getElementById('r_valNom').textContent=nom.toFixed(2)+'%';
+      document.getElementById('r_valIrr').textContent=irr.toFixed(2)+'%';
+      bars.style.display='block';
+    }else{bars.style.display='none';}
+  }
+  if(t==='a'&&typeof heroIrr==='function'){try{heroIrr(true);}catch(e){}}
+}
+(function(){
+  var t='b';
+  try{var s=localStorage.getItem('chedai-theme');if(s==='a'||s==='b'||s==='c')t=s;}catch(e){}
+  var de=document.documentElement;
+  de.className=(de.className.replace(/(^|\s)t-[abc](?=\s|$)/g,'')+' t-'+t).replace(/^\s+|\s+$/g,'');
+  
+  var sels=document.querySelectorAll('.theme-select');
+  for(var i=0;i<sels.length;i++){sels[i].value=t;}
+  
+  syncThemeExtras();
+})();
+</script>
+<main>
+<section class="hero theme-hero h-a">
+    <p class="hero-kicker">车贷透明度科普</p>
+    <h1 class="hero-title">别被「费率」<br>骗了。</h1>
+    <p class="hero-sub">同一个数字，两种算法，真实成本差出一倍。<br>下面这组数字，就是证据。</p>
+
+    <div class="duel">
+      <div class="duel-item">
+        <div class="lab">销售告诉你的 · 名义年化</div>
+        <div class="num nominal" id="heroNom">3.00%</div>
+      </div>
+      <div class="duel-arrow">→</div>
+      <div class="duel-item">
+        <div class="lab">你实际承担的 · 真实年化 IRR</div>
+        <div class="num real" id="heroIrr">3.00%</div>
+      </div>
+    </div>
+
+    <div class="inputs">
+      <div class="field">
+        <label for="h-feilv">月费率（%）</label>
+        <input id="h-feilv" type="number" value="0.25" step="0.01" min="0" oninput="heroIrr(false)">
+      </div>
+      <div class="field">
+        <label for="h-months">期数（月）</label>
+        <input id="h-months" type="number" value="36" step="1" min="1" max="120" oninput="heroIrr(false)">
+      </div>
+    </div>
+    <p class="tip">改上面的数字，亲眼看真实年化怎么变。</p>
+
+    <div class="hero-cta">
+      <a class="btn primary" href="feilv-irr.html">打开完整换算器</a>
+      <a class="btn ghost" href="feilv-vs-lilv.html">先看懂费率 vs 利率</a>
+    </div>
+  </section>
+<section class="hero theme-hero h-b">
+<div class="wrap">
+<p class="hero-kicker"><span class="tick">✓</span>&nbsp; 车贷透明度科普</p>
+    <h1 class="hero-title">别被「费率」<br>骗了。</h1>
+    <p class="hero-sub">销售话术里藏着的真实成本，<b>我们用红笔给你标出来</b>。</p>
+
+    <div class="proof">
+      <div class="proof-tag">勘误</div>
+      <p class="quote">销售说："月费率 <b id="q-rate">0.25</b>%，便宜得很。"</p>
+      <div class="numbers">
+        <div class="nom-row">
+          <div class="cap">名义年化 · 报价单上的数字</div>
+          <div class="nominal"><span id="q-nom">3.00</span>%<svg class="strike" viewBox="0 0 220 48" preserveAspectRatio="none" aria-hidden="true"><path pathLength="100" d="M8,34 C70,30 150,20 212,10"/></svg></div>
+        </div>
+        <div class="ann-row">
+          <div class="cap">编辑批注</div>
+          <div class="annotation"><span class="ann-k">实际&nbsp;</span><span class="ann-v"><span id="q-irr">5.83</span>%</span></div>
+        </div>
+      </div>
+      <p class="proof-foot">费率按<b>贷款总额</b>收，利率按<b>剩余本金</b>算 —— 同一个数字，算法不同，<b>真实成本差出一倍</b>。</p>
+    </div>
+
+    <div class="hero-form">
+      <div class="field">
+        <label for="in-rate">月费率（%）</label>
+        <input id="in-rate" type="number" value="0.25" step="0.01" min="0" inputmode="decimal">
+      </div>
+      <div class="field">
+        <label for="in-n">期数（月）</label>
+        <input id="in-n" type="number" value="36" step="1" min="1" max="120" inputmode="numeric">
+      </div>
+    </div>
+    <p class="hero-tip"><span class="pen">✎</span> 改上面的数字，红笔批注跟着变。</p>
+
+    <div class="hero-cta">
+      <a class="btn" href="feilv-irr.html">打开完整换算器</a>
+      <a class="btn ghost" href="feilv-vs-lilv.html">先看懂费率 vs 利率</a>
+    </div>
+  
+</div>
+</section>
+<section class="hero theme-hero h-c">
+  <p class="kicker"><span class="sq blue"></span>车贷透明度科普</p>
+  <h1>别被“费率”<br>骗了。</h1>
+  <p class="lede">销售说<strong>月费率 0.25%</strong>。<br>按“费率”口径，年化只有 3.00% ——<br>但按你实际占用的钱算，是 <span class="hl">5.83%</span>。</p>
+  <section class="bars" aria-label="名义年化与真实年化对比">
+    <div class="bar-row">
+      <div class="bar-head"><span class="sq"></span>名义年化 · 费率 × 12</div>
+      <div class="bar-track">
+        <div class="bar grey" id="barNom" style="width:30%"></div>
+        <span class="bar-val" id="valNom">3.00%</span>
+      </div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-head"><span class="sq blue"></span>真实年化 · IRR</div>
+      <div class="bar-track">
+        <div class="bar blue" id="barIrr" style="width:58.3%"></div>
+        <span class="bar-val blue" id="valIrr">5.83%</span>
+      </div>
+    </div>
+    <div class="axis"><span>0%</span><span>5%</span><span>10%</span></div>
+    <p class="readout" id="readout">10 万元 · 36 期 · 月供 ¥3,028 · 总利息 ¥9,000</p>
+  </section>
+  <section class="inputs">
+    <p class="in-kicker"><span class="sq blue"></span>输入你的方案 · 实时换算</p>
+    <div class="in-row">
+      <div class="in-field">
+        <div class="flabel">月费率</div>
+        <div class="in-line"><input id="inRate" type="number" value="0.25" min="0" step="0.01" inputmode="decimal" oninput="updateC()"><span class="unit">%</span></div>
+      </div>
+      <div class="in-field">
+        <div class="flabel">期数</div>
+        <div class="in-line"><input id="inN" type="number" value="36" min="1" max="120" step="1" inputmode="numeric" oninput="updateC()"><span class="unit">月</span></div>
+      </div>
+    </div>
+  </section>
+  <nav class="ctas">
+    <a class="cta primary" href="feilv-irr.html">打开完整换算器</a>
+    <a class="cta secondary" href="feilv-vs-lilv.html">先看懂费率 vs 利率</a>
+  </nav>
+  <p class="fine">举例：10 万元 · 36 期 · 等本等息。条形长度按 0–10% 固定刻度，比例严格对应数值。测算为示例，仅供科普，不构成任何建议，具体以贷款合同为准。</p>
+</section>
+<div class="wrap">
+
+
+  <section class="section">
+    <h2><span class="sec-no">壹</span>避坑指南</h2>
+    <div class="ledger">
+      <a class="ledger-row" href="feilv-vs-lilv.html"><span class="ledger-no">一</span><div><h3>费率 vs 真实利率</h3><p>为什么 0.25% 的月费率不等于 3% 年化</p></div><span class="ledger-go">→</span></a>
+      <a class="ledger-row" href="dengben-dengxi.html"><span class="ledger-no">二</span><div><h3>等额本息 vs 等本等息</h3><p>两种还款方式，总利息差出一倍</p></div><span class="ledger-go">→</span></a>
+      <a class="ledger-row" href="ling-shoufu.html"><span class="ledger-no">三</span><div><h3>0首付 0 利息的真相</h3><p>羊毛出在羊身上，钱从哪补回来</p></div><span class="ledger-go">→</span></a>
+      <a class="ledger-row" href="tiqian-huankuan.html"><span class="ledger-no">四</span><div><h3>提前还款违约金</h3><p>想提前还？先看清这一条</p></div><span class="ledger-go">→</span></a>
+      <a class="ledger-row" href="sidi-vs-yinhang.html"><span class="ledger-no">五</span><div><h3>4S店 vs 银行</h3><p>两边报价怎么比才公平</p></div><span class="ledger-go">→</span></a>
+      <a class="ledger-row" href="xinyongka-fenqi.html"><span class="ledger-no">六</span><div><h3>信用卡分期 vs 车贷</h3><p>分期手续费的真实年化</p></div><span class="ledger-go">→</span></a>
+      <a class="ledger-row" href="tiexi.html"><span class="ledger-no">七</span><div><h3>新能源贴息</h3><p>厂家贴的息，到底谁在买单</p></div><span class="ledger-go">→</span></a>
+      <a class="ledger-row" href="rongzi-zulin.html"><span class="ledger-no">八</span><div><h3>融资租赁 vs 贷款</h3><p>绿本在谁手里，区别大了</p></div><span class="ledger-go">→</span></a>
+      <a class="ledger-row" href="beiju.html"><span class="ledger-no">九</span><div><h3>车贷被拒的常见原因</h3><p>征信、流水、负债率自查清单</p></div><span class="ledger-go">→</span></a>
+      <a class="ledger-row" href="hetong.html"><span class="ledger-no">十</span><div><h3>合同避坑 8 项</h3><p>签字前必看的 8 个条款</p></div><span class="ledger-go">→</span></a>
+    </div>
+  </section>
+
+  <div class="adslot">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0000000000000000" data-ad-slot="0000000000" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+
+  <section class="section">
+    <h2><span class="sec-no">贰</span>常见问题</h2>
+    <div class="faq">
+      <details><summary>月费率 0.25%，年化到底是多少？</summary><p>名义上 0.25% × 12 = 3%。但费率按贷款总额固定收取、本金逐月减少，真实年化（IRR）约为 5.8%（36 期为例）。用本站换算器输入你的期数可得精确值。</p></details>
+      <details><summary>0 利息的车贷真的划算吗？</summary><p>要看代价：很多 0 息方案捆绑了高额手续费，或车价本身没有优惠。"0 利息 + 5000 手续费"可能比"正常利率 + 0 手续费"更贵。把手续费折进总成本再比。</p></details>
+      <details><summary>本站会推荐具体的贷款产品吗？</summary><p>不会。本站只做科普和计算工具，不推荐任何具体金融机构或产品，不构成投资、信贷建议。具体方案以各机构合同为准。</p></details>
+    </div>
+  </section>
+
+  <p class="hint" style="margin-top:32px">本站内容仅为金融科普，具体贷款条件以各金融机构合同为准。数据为示例测算，不构成任何推荐或建议。</p>
+
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div><h4>车贷明算账<span class="dot">.</span></h4><p>车贷透明度科普站。所有计算结果为估算值，仅供参考，不构成贷款建议。</p></div>
+      <div><h4>工具</h4><ul><li><a href="feilv-irr.html">费率换算器</a></li></ul></div>
+      <div><h4>本站</h4><ul><li><a href="guanyu.html">关于本站</a></li><li><a href="yinsi.html">隐私政策</a></li></ul></div>
+    </div>
+    <div class="copyright"><span>© 2026 车贷明算账</span><span><!-- 备案号占位 --></span></div>
+  </div>
+</footer>
+<script>
+function calcIRR(rPct, n){
+  var r = rPct / 100;
+  var pmt = 1 / n + r, lo = 1e-7, hi = 0.2, mid, pv;
+  for(var k = 0; k < 80; k++){
+    mid = (lo + hi) / 2;
+    pv = pmt * (1 - Math.pow(1 + mid, -n)) / mid;
+    if(pv > 1) lo = mid; else hi = mid;
+  }
+  return (Math.pow(1 + (lo + hi) / 2, 12) - 1) * 100;
+}
+function update(){
+  var rEl = document.getElementById('in-rate'),
+      nEl = document.getElementById('in-n');
+  var r = parseFloat(rEl.value), n = parseInt(nEl.value, 10);
+  if(!(r >= 0) || !(n > 0)) return;
+  document.getElementById('q-rate').textContent = ('' + rEl.value).trim() || '0';
+  document.getElementById('q-nom').textContent = (r * 12).toFixed(2);
+  document.getElementById('q-irr').textContent = calcIRR(r, n).toFixed(2);
+}
+document.getElementById('in-rate').addEventListener('input', update);
+document.getElementById('in-n').addEventListener('input', update);
+update();
+</script>
+<script>
+
+var heroToken = 0;
+function countUp(tk, from, to, dur){
+  var t0 = null;
+  function f(t){
+    if(tk !== heroToken) return;
+    if(!t0) t0 = t;
+    var p = Math.min(1, (t - t0) / dur);
+    var e = 1 - Math.pow(1 - p, 3);
+    document.getElementById('heroIrr').textContent = (from + (to - from) * e).toFixed(2) + '%';
+    if(p < 1) requestAnimationFrame(f);
+  }
+  requestAnimationFrame(f);
+}
+function heroIrr(animate){
+  var r = (parseFloat(document.getElementById('h-feilv').value) || 0) / 100;
+  var n = parseInt(document.getElementById('h-months').value) || 36;
+  if(n <= 0) return;
+  var pmt = 1 / n + r, lo = 1e-7, hi = 0.2, mid, pv;
+  for(var k = 0; k < 80; k++){
+    mid = (lo + hi) / 2;
+    pv = pmt * (1 - Math.pow(1 + mid, -n)) / mid;
+    if(pv > 1) lo = mid; else hi = mid;
+  }
+  var irr = (Math.pow(1 + (lo + hi) / 2, 12) - 1) * 100;
+  var nom = r * 12 * 100;
+  document.getElementById('heroNom').textContent = nom.toFixed(2) + '%';
+  if(animate){
+    var tk = ++heroToken;
+    countUp(tk, nom, irr, 1400);
+  } else {
+    heroToken++;
+    document.getElementById('heroIrr').textContent = irr.toFixed(2) + '%';
+  }
+}
+window.addEventListener('load', function(){ heroIrr(true); });
+
+
+function calcIRRc(r, n){
+  var pmt = 1/n + r, lo = 1e-7, hi = 0.2, mid, pv;
+  for(var k = 0; k < 80; k++){
+    mid = (lo + hi) / 2;
+    pv = pmt * (1 - Math.pow(1 + mid, -n)) / mid;
+    if(pv > 1) lo = mid; else hi = mid;
+  }
+  return (Math.pow(1 + (lo + hi) / 2, 12) - 1) * 100;
+}
+function fmtC(n){ return "¥"+(n).toLocaleString("zh-CN",{minimumFractionDigits:2,maximumFractionDigits:2}); }
+function updateC(){
+  var r = (parseFloat(document.getElementById('inRate').value) || 0) / 100;
+  var n = parseInt(document.getElementById('inN').value, 10) || 0;
+  if(n <= 0) return;
+  var nom = r * 12 * 100;
+  var irr = calcIRRc(r, n);
+  document.getElementById('valNom').textContent = nom.toFixed(2) + '%';
+  document.getElementById('valIrr').textContent = irr.toFixed(2) + '%';
+  document.getElementById('barNom').style.width = Math.min(100, nom / 10 * 100) + '%';
+  document.getElementById('barIrr').style.width = Math.min(100, irr / 10 * 100) + '%';
+  var pmt = 100000 / n + 100000 * r;
+  document.getElementById('readout').textContent =
+    '10 万元 · ' + n + ' 期 · 月供 ' + fmtC(pmt) + ' · 总利息 ' + fmtC(100000 * r * n);
+}
+updateC();
+
+</script>
+</body>
+</html>

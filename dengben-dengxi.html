@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="t-b">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>等额本息和等本等息的区别｜哪种还款更划算_车贷明算账</title>
+<meta name="description" content="等额本息和等本等息有什么区别？同样报3%，等本等息总利息贵近一倍。一文讲清两种还款方式的算法差异和提前还款注意点。">
+<meta name="keywords" content="等额本息等本等息区别,车贷还款方式,等本等息提前还款">
+<link rel="canonical" href="https://www.chedai-mingsuanzhang.com/dengben-dengxi.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="车贷明算账">
+<meta property="og:title" content="等额本息 vs 等本等息">
+<meta property="og:description" content="同样报3%，等本等息总利息贵近一倍。">
+<meta property="og:url" content="https://www.chedai-mingsuanzhang.com/dengben-dengxi.html">
+<link rel="stylesheet" href="themes.css">
+<script>!function(){try{var t=localStorage.getItem('chedai-theme');if(t!=='a'&&t!=='c')t='b';var de=document.documentElement;
+  de.className=(de.className.replace(/(^|\s)t-[abc](?=\s|$)/g,'')+' t-'+t).replace(/^\s+|\s+$/g,'');}catch(e){}}();</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "等额本息和等本等息哪个更划算？", "acceptedAnswer": {"@type": "Answer", "text": "同样名义数字下，等额本息通常总利息更少，因为利息按剩余本金计算。等本等息利息按贷款总额固定收取，真实年化（IRR）约为名义数字的两倍。具体以合同条款和换算结果为准。"}}, {"@type": "Question", "name": "等本等息可以提前还款吗？", "acceptedAnswer": {"@type": "Answer", "text": "一般可以，但要注意两点：一是合同里有没有提前还款违约金条款（常见区间为剩余本金的3%–5%）；二是等本等息已付的利息通常不退，提前还的省钱效果不如等额本息明显。"}}]}
+</script>
+<!-- 统计代码占位：GA4 或百度统计二选一，上线前填入 -->
+<!-- AI 来源识别（GEO pilot KPI：ai_referral 事件，source=ai 引擎名） -->
+<script>
+(function(){
+  var AI_HOSTS = {
+    "chatgpt.com":"chatgpt","chat.openai.com":"chatgpt",
+    "claude.ai":"claude","perplexity.ai":"perplexity",
+    "doubao.com":"doubao","www.doubao.com":"doubao",
+    "kimi.moonshot.cn":"kimi","chat.deepseek.com":"deepseek",
+    "yiyan.baidu.com":"wenxin","tongyi.aliyun.com":"tongyi",
+    "poe.com":"poe","grok.com":"grok","gemini.google.com":"gemini",
+    "copilot.microsoft.com":"copilot","meta.ai":"meta_ai"
+  };
+  function track(name, params){
+    try{
+      if(typeof gtag === "function"){ gtag("event", name, params||{}); }
+      else if(typeof _hmt !== "undefined"){ _hmt.push(["_trackEvent","ai",name,(params&&params.source)||""]); }
+      else { (window.__trackq = window.__trackq || []).push([name, params]); }
+    }catch(e){}
+  }
+  try{
+    var r = document.referrer;
+    if(r){
+      var host = (r.split("/")[2]||"").toLowerCase();
+      var src = AI_HOSTS[host] || AI_HOSTS[host.replace(/^www\./,"")];
+      if(src){ track("ai_referral", {source: src, page: location.pathname}); }
+    }
+  }catch(e){}
+  window.__trackEvent = track;
+})();
+</script>
+
+</head>
+<body>
+<header class="site-header">
+  <div class="meta-bar"><span>车贷透明度科普</span><span>IRR · 真实年化利率</span><span>2026</span></div>
+  <div class="wrap head-row">
+    <a class="logo" href="index.html">车贷明算账<span class="dot">.</span></a>
+    <select class="theme-select" aria-label="切换风格">
+      <option value="a">深蓝</option>
+      <option value="b" selected>红笔</option>
+      <option value="c">瑞士</option>
+    </select>
+  </div>
+  <nav class="main-nav" aria-label="主导航"><div class="nav-strip wrap">
+      <a href="index.html">首页</a>
+      <a href="feilv-irr.html">费率换算器</a>
+      <details class="nav-group active">
+      <summary><span>避坑指南</span><span class="caret">▾</span></summary>
+      <div class="nav-drop">
+        <a href="zhinan.html" class="drop-head">全部 10 篇 →</a>
+        <a href="feilv-vs-lilv.html"><span class="n">01</span>费率 vs 真实利率</a>
+        <a href="dengben-dengxi.html"><span class="n">02</span>等额本息 vs 等本等息</a>
+        <a href="ling-shoufu.html"><span class="n">03</span>0首付0利息的真相</a>
+        <a href="tiqian-huankuan.html"><span class="n">04</span>提前还款违约金</a>
+        <a href="sidi-vs-yinhang.html"><span class="n">05</span>4S店 vs 银行</a>
+        <a href="xinyongka-fenqi.html"><span class="n">06</span>信用卡分期 vs 车贷</a>
+        <a href="tiexi.html"><span class="n">07</span>新能源贴息</a>
+        <a href="rongzi-zulin.html"><span class="n">08</span>融资租赁 vs 贷款</a>
+        <a href="beiju.html"><span class="n">09</span>车贷被拒原因</a>
+        <a href="hetong.html"><span class="n">10</span>合同避坑8项</a>
+      </div>
+    </details>
+      <a href="guanyu.html">关于</a>
+    </div></nav>
+  <script>document.addEventListener("change",function(e){var el=e.target;if(el&&el.classList&&el.classList.contains("theme-select")){setTheme(el.value);}});</script>
+  <script>document.addEventListener("click",function(e){var ds=document.querySelectorAll("details.nav-group[open]");for(var i=0;i<ds.length;i++){if(!ds[i].contains(e.target)){ds[i].removeAttribute("open");}}});</script>
+</header>
+<script>
+function curTheme(){var m=/(^|\s)t-([abc])(?=\s|$)/.exec(document.documentElement.className);return m?m[2]:'b';}
+function setTheme(t){
+  if(t!=='a'&&t!=='b'&&t!=='c')t='b';
+  var de=document.documentElement;
+  de.className=(de.className.replace(/(^|\s)t-[abc](?=\s|$)/g,'')+' t-'+t).replace(/^\s+|\s+$/g,'');
+  
+  try{localStorage.setItem('chedai-theme',t);}catch(e){}
+  var sels=document.querySelectorAll('.theme-select');
+  for(var i=0;i<sels.length;i++){sels[i].value=t;}
+  if(typeof window.__trackEvent==='function'){try{window.__trackEvent('theme_switch',{theme:t});}catch(e){}}
+  syncThemeExtras();
+}
+function syncThemeExtras(){
+  var t=curTheme();
+  var grid=document.getElementById('resultGrid'), bars=document.getElementById('r_bars');
+  if(bars&&grid){
+    if(t==='c'&&grid.style.display!=='none'){
+      var nom=parseFloat(document.getElementById('r_nom').textContent)||0;
+      var irr=parseFloat(document.getElementById('r_irr').textContent)||0;
+      document.getElementById('r_barNom').style.width=Math.min(100,nom/10*100)+'%';
+      document.getElementById('r_barIrr').style.width=Math.min(100,irr/10*100)+'%';
+      document.getElementById('r_valNom').textContent=nom.toFixed(2)+'%';
+      document.getElementById('r_valIrr').textContent=irr.toFixed(2)+'%';
+      bars.style.display='block';
+    }else{bars.style.display='none';}
+  }
+  if(t==='a'&&typeof heroIrr==='function'){try{heroIrr(true);}catch(e){}}
+}
+(function(){
+  var t='b';
+  try{var s=localStorage.getItem('chedai-theme');if(s==='a'||s==='b'||s==='c')t=s;}catch(e){}
+  var de=document.documentElement;
+  de.className=(de.className.replace(/(^|\s)t-[abc](?=\s|$)/g,'')+' t-'+t).replace(/^\s+|\s+$/g,'');
+  
+  var sels=document.querySelectorAll('.theme-select');
+  for(var i=0;i<sels.length;i++){sels[i].value=t;}
+  
+  syncThemeExtras();
+})();
+</script>
+<main class="article">
+<div class="wrap">
+  <div class="article-head">
+  <div class="crumb"><a href="index.html">首页</a> › 避坑指南 › 等额本息 vs 等本等息</div>
+  <h1 class="page-title">等额本息 vs 等本等息：一字之差，利息差一倍</h1>
+  <p class="page-sub">销售报的“利率”和“费率”，常常对应这两种完全不同的还款方式。</p>
+</div>
+  <p class="tldr"><strong>一句话看懂：</strong>等额本息的利息按<strong>剩余本金</strong>算，越还越少；等本等息的利息按<strong>贷款总额</strong>固定收，每月一样。同样是“3%”，等本等息的总利息贵近一倍。</p>
+
+  <div class="section">
+    <h2>算一笔账：10 万、36 期，都报“3%”</h2>
+    <p class="hint">假设：10 万，36 期，名义都是“3%”（等额本息按年化利率 3%，等本等息按月费率 0.25%）。</p>
+    <table class="cmp-table">
+      <tr><th>项目</th><th>等额本息</th><th>等本等息</th></tr>
+      <tr><td>每月还款</td><td>2908.12 元</td><td>3027.78 元</td></tr>
+      <tr><td>总利息</td><td>4692 元</td><td>9000 元</td></tr>
+      <tr><td><strong>真实年化（IRR）</strong></td><td><strong>3.00%</strong></td><td><strong>约 5.8%</strong></td></tr>
+    </table>
+    <p class="hint">举例/假设：以上为示例测算，两种方案名义上都是“3%”，但总利息差了 4308 元。</p>
+    <p>为什么差这么多？等额本息每个月还的本金越来越多，利息按剩余本金算，越还越少；等本等息每个月还的本金固定，利息却一直按最初的 10 万全额收。<a href="feilv-irr.html">→ 用换算器验证</a></p>
+  </div>
+
+  <div class="section">
+    <h2>等本等息提前还款：已付的利息不退</h2>
+    <p>这是等本等息最容易被忽略的一点。等额本息提前还款时，没发生的利息就不再产生了；但等本等息下，每期利息是“固定”的——你提前还掉剩余本金，<strong>之前各期多交的利息不会退给你</strong>，相当于为已经用完的额度继续付费。</p>
+    <p>举例：10 万 36 期、月费率 0.25% 的方案，还到第 12 期想一次性结清。前 12 期你交了 3000 元利息，其中一部分对应的是“后 24 期本应占用的资金”——这笔钱拿不回来。</p>
+  </div>
+
+  <div class="adslot">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0000000000000000" data-ad-slot="0000000000" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+
+  <div class="section">
+    <h2>怎么选？看三点</h2>
+    <ol>
+      <li><strong>先问清是哪种</strong>：让对方在报价单上写明”等额本息“还是”等本等息（费率）“，口头说的都不算。</li>
+      <li><strong>都换算成 IRR 再比</strong>：等额本息的标称年化基本就是 IRR；等本等息必须用换算器折成 IRR 才能比。</li>
+      <li><strong>有提前还款打算的</strong>：优先看等额本息方案，并把提前还款违约金条款一起看（<a href="tiqian-huankuan.html">提前还款违约金详解</a>）。</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>算算你的方案</h2>
+    <div class="panel">
+      <div class="field">
+        <label for="db-p">贷款金额（元）</label>
+        <input type="number" id="db-p" value="100000" min="1000" step="1000" inputmode="numeric">
+      </div>
+      <div class="field">
+        <label for="db-n">期数（月）</label>
+        <input type="number" id="db-n" value="36" min="1" max="120" step="1" inputmode="numeric">
+      </div>
+      <div class="field">
+        <label for="db-r">年化利率（%，等额本息用）</label>
+        <input type="number" id="db-r" value="3" min="0" step="0.01" inputmode="decimal">
+        <div class="hint">银行报价的年化利率，举例：3。等额本息的标称年化本身就是 IRR 口径。</div>
+      </div>
+      <div class="field">
+        <label for="db-f">月费率（%，等本等息用）</label>
+        <input type="number" id="db-f" value="0.25" min="0" step="0.01" inputmode="decimal">
+        <div class="hint">销售说的月费率，举例：0.25</div>
+      </div>
+      <button class="calc-go" onclick="dbCalc()">开始对比</button>
+      <div class="result-grid" id="db-res" style="display:none;margin-top:16px">
+        <div class="stat"><div class="k">等额本息 · 月供</div><div class="v" id="db-pmt1">—</div></div>
+        <div class="stat"><div class="k">等额本息 · 总利息</div><div class="v" id="db-int1">—</div></div>
+        <div class="stat"><div class="k">等额本息 · 真实年化</div><div class="v" id="db-irr1">—</div></div>
+        <div class="stat"><div class="k">等本等息 · 月供</div><div class="v" id="db-pmt2">—</div></div>
+        <div class="stat"><div class="k">等本等息 · 总利息</div><div class="v" id="db-int2">—</div></div>
+        <div class="stat hl"><div class="k">等本等息 · 真实年化</div><div class="v" id="db-irr2">—</div></div>
+      </div>
+      <div class="verdict" id="db-verdict" style="display:none;margin-top:16px"></div>
+      <p class="hint">示例测算：结果为估算值，仅供科普参考，不构成任何推荐或建议。</p>
+    </div>
+  </div>
+<script>
+function dbIRR(fPct,n){
+  var r=fPct/100, pmt=1/n+r, lo=1e-7, hi=0.2, mid, pv, k;
+  for(k=0;k<80;k++){ mid=(lo+hi)/2; pv=pmt*(1-Math.pow(1+mid,-n))/mid; if(pv>1){lo=mid;}else{hi=mid;} }
+  return (Math.pow(1+(lo+hi)/2,12)-1)*100;
+}
+function dbCalc(){
+  var P=parseFloat(document.getElementById('db-p').value),
+      n=parseInt(document.getElementById('db-n').value,10),
+      r=parseFloat(document.getElementById('db-r').value),
+      f=parseFloat(document.getElementById('db-f').value);
+  if(!(P>0)||!(n>0)||!(r>=0)||!(f>=0))return;
+  var i=r/100/12, pw=Math.pow(1+i,n),
+      pmt1=i>0?P*i*pw/(pw-1):P/n, int1=pmt1*n-P,
+      pmt2=P/n+P*f/100, int2=P*f/100*n, irr2=dbIRR(f,n),
+      fmt=function(x){return '¥'+x.toLocaleString('zh-CN',{minimumFractionDigits:2,maximumFractionDigits:2});};
+  document.getElementById('db-pmt1').textContent=fmt(pmt1);
+  document.getElementById('db-int1').textContent=fmt(int1);
+  document.getElementById('db-irr1').textContent=r.toFixed(2)+'%';
+  document.getElementById('db-pmt2').textContent=fmt(pmt2);
+  document.getElementById('db-int2').textContent=fmt(int2);
+  document.getElementById('db-irr2').textContent=irr2.toFixed(2)+'%';
+  var v=document.getElementById('db-verdict');
+  v.innerHTML='等本等息比等额本息多付利息 <b>'+fmt(int2-int1)+'</b>，真实年化高出 <b>'+(irr2-r).toFixed(2)+' 个百分点</b>。（示例测算）';
+  v.style.display='';
+  document.getElementById('db-res').style.display='';
+}
+</script>
+
+  <div class="section">
+    <h2>相关阅读</h2>
+    <ul>
+      <li><a href="feilv-vs-lilv.html">费率 vs 真实利率</a></li>
+      <li><a href="tiqian-huankuan.html">提前还款违约金</a></li>
+      <li><a href="feilv-irr.html">费率换算器</a></li>
+    </ul>
+  </div>
+
+  <p class="hint">本文为金融科普，数据为示例测算。具体贷款条件以各金融机构合同为准，不构成任何推荐或建议。</p>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div><h4>车贷明算账</h4><p>车贷透明度科普站。所有计算结果为估算值，仅供参考，不构成贷款建议。</p></div>
+      <div><h4>工具</h4><ul><li><a href="feilv-irr.html">费率换算器</a></li></ul></div>
+      <div><h4>本站</h4><ul><li><a href="guanyu.html">关于本站</a></li><li><a href="yinsi.html">隐私政策</a></li></ul></div>
+    </div>
+    <div class="copyright"><span>© 2026 车贷明算账</span><span><!-- 备案号占位 --></span></div>
+  </div>
+</footer>
+</body>
+</html>
